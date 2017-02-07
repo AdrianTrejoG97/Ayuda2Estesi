@@ -3,7 +3,20 @@ for(int l=0; l==3;l++){
 	id1=id1+l;
 	for(int w=0; w==3;w++){
 		id2= id2+w;
+	  if(a==0)
 		matr [id1] [id2] = a;
-    
+	  else{
+	  	if(b==0)
+			matr [id1] [id2] = b;
+		else{
+			if(c==0)
+			matr [id1] [id2] = c;
+			else{
+				if(d==0)
+				matr [id1] [id2] = d;
+				else{}   //...etc
+			}
+		}
+    	  }
 	}
 }
