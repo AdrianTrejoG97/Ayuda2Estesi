@@ -1,0 +1,9 @@
+int a,b,c,d,e,f,g,h,j, id1=0;
+for(int l=0; l==3;l++){
+	id1=id1+l;
+	for(int w=0; w==3;w++){
+		id2= id2+w;
+		matr [id1] [id2] = a;
+    
+	}
+}
